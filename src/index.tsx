@@ -35,7 +35,7 @@ const App: FC = () => {
           </div>
 
           <div style={{ width: 800, height: 100, margin: "0 auto" }}>
-            <Animator animator={{ animate: false }}>
+            <Animator animator={{ animate: true }}>
               <a href="/resume.pdf">
               <Button palette='primary'>
                 <Text>Resume</Text>
@@ -52,6 +52,16 @@ const App: FC = () => {
               </Button>
               </a>
             </Animator>
+          </div>
+
+          <div style={{ width: 800, height: 200, margin: "0 auto" }}>
+            <FrameCorners>
+              <Text style={{ fontSize: 50 }} animator={{ duration, activate }}>Profile
+              </Text>
+              <Text style={{ fontSize: 15 }} animator={{ duration, activate }}>Computer Engineering student interested in Software Development. Strongest languages are C#/C++, but has demonstrated proficiency in other languages. Strong focus on code readability. Grew up in Los Angeles, California, and is willing to locate for job opportunities. Sometimes spotted enjoying Tennis and Mountain Biking.
+              </Text>
+              <br />
+            </FrameCorners>
           </div>
 
           <div style={{ width: 800, height: 250, margin: "0 auto" }}>
@@ -126,7 +136,7 @@ const App: FC = () => {
           </div>
           <div style={{ width: 800, height: 1300, margin: "0 auto" }}>
             <FrameCorners>
-              <Text style={{ fontSize: 50 }} animator={{ duration, activate }}>Known Projects
+              <Text style={{ fontSize: 50 }} animator={{ duration, activate }}>Notable Projects
               </Text>
 
               <Card
