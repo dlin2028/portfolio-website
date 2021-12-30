@@ -26,14 +26,35 @@ const App: FC = () => {
       >
         <StylesBaseline />
         <AnimatorGeneralProvider animator={animatorGeneral}>
-          <div style={{ width: 500, height: 150, margin: "0 auto" }}>
+          <div style={{ width: 800, height: 100, margin: "0 auto" }}>
             <Text style={{ fontSize: 57 }} animator={{ duration, activate }}>For Hire: David Lin
             </Text>
             <br />
             <Text style={{ fontSize: 20 }} animator={{ duration, activate }}>Software Developer / Computer Engineer
             </Text>
           </div>
-          <div style={{ width: 800, height: 210, margin: "0 auto" }}>
+
+          <div style={{ width: 800, height: 100, margin: "0 auto" }}>
+            <Animator animator={{ animate: false }}>
+              <a href="/resume.pdf">
+              <Button palette='primary'>
+                <Text>Resume</Text>
+              </Button>
+              </a>
+              <a href="https://github.com/dlin2028">
+              <Button palette='primary'>
+                <Text>GitHub</Text>
+              </Button>
+              </a>
+              <a href="https://www.linkedin.com/in/davidzl2">
+              <Button palette='primary'>
+                <Text>LinkedIn</Text>
+              </Button>
+              </a>
+            </Animator>
+          </div>
+
+          <div style={{ width: 800, height: 250, margin: "0 auto" }}>
             <FrameCorners>
               <Text style={{ fontSize: 50 }} animator={{ duration, activate }}>Education
               </Text>
@@ -50,12 +71,12 @@ const App: FC = () => {
               <br />
             </FrameCorners>
           </div>
-          <div style={{ width: 800, height: 315, margin: "0 auto" }}>
+          <div style={{ width: 800, height: 390, margin: "0 auto" }}>
             <FrameCorners>
               <Text style={{ fontSize: 50 }} animator={{ duration, activate }}>Last Seen
               </Text>
               <br />
-              <Text style={{ fontSize: 30 }} animator={{ duration, activate }}>Potions and Pixels
+              <Text style={{ fontSize: 30 }} animator={{ duration, activate }}> <b>Potions and Pixels</b>
               </Text>
               <br />
               <Text style={{ fontSize: 25 }} animator={{ duration, activate }}>Unity AR Internship
@@ -69,7 +90,7 @@ const App: FC = () => {
               <br />
             </FrameCorners>
           </div>
-          <div style={{ width: 800, height: 610, margin: "0 auto" }}>
+          <div style={{ width: 800, height: 730, margin: "0 auto" }}>
             <FrameCorners>
               <Text style={{ fontSize: 50 }} animator={{ duration, activate }}>Recent Activity
               </Text>
@@ -103,7 +124,7 @@ const App: FC = () => {
 
             </FrameCorners>
           </div>
-          <div style={{ width: 800, height: 1000, margin: "0 auto" }}>
+          <div style={{ width: 800, height: 1300, margin: "0 auto" }}>
             <FrameCorners>
               <Text style={{ fontSize: 50 }} animator={{ duration, activate }}>Known Projects
               </Text>
@@ -113,13 +134,13 @@ const App: FC = () => {
                 title='84PlusPlus '
                 options={
                   <Button palette='secondary'>
-                  <Text><a href="https://github.com/dlin2028/84plusplus">GitHub</a></Text>
+                    <Text><a href="https://github.com/dlin2028/84plusplus">GitHub</a></Text>
                   </Button>
                 }
               >
                 <Text>
-                • Developed a c-style language which compiles to Ti-Basic, which can run on the Ti-84 family of calculators. <br/>
-• Features include a LL1 Parser, a tokenizer, and a code generato
+                  • Developed a c-style language which compiles to Ti-Basic, which can run on the Ti-84 family of calculators. <br />
+                  • Features include a LL1 Parser, a tokenizer, and a code generato
                 </Text>
               </Card>
               <Card
@@ -132,8 +153,8 @@ const App: FC = () => {
                 }
               >
                 <Text>
-                • A project which attempts to upmix stereo sound into 5.1 surround sound using a Fast Fourier Transform then a
-Convolutional Neural Net
+                  • A project which attempts to upmix stereo sound into 5.1 surround sound using a Fast Fourier Transform then a
+                  Convolutional Neural Net
                 </Text>
               </Card>
               <Card
@@ -141,14 +162,14 @@ Convolutional Neural Net
                 title='Neural Net'
                 options={
                   <Button palette='secondary'>
-                  <Text><a href="https://github.com/dlin2028?tab=repositories&q=smartybird+OR+neural&type=&language=&sort=">GitHub</a></Text>
+                    <Text><a href="https://github.com/dlin2028?tab=repositories&q=smartybird+OR+neural&type=&language=&sort=">GitHub</a></Text>
                   </Button>
                 }
               >
                 <Text>
-                • My made-from-scratch neural net used for the following AI projects <br />
-• Smartybird: Used a genetic learning algorithm to play a recreation of the popular game ’flappy bird’ <br />
-• Sinewave: Used a back-propagation learning algorithms to find missing points in a sine wave (or any other function) <br />
+                  • My made-from-scratch neural net used for the following AI projects <br />
+                  • Smartybird: Used a genetic learning algorithm to play a recreation of the popular game ’flappy bird’ <br />
+                  • Sinewave: Used a back-propagation learning algorithms to find missing points in a sine wave (or any other function) <br />
                 </Text>
               </Card>
               <Card
@@ -156,12 +177,12 @@ Convolutional Neural Net
                 title='Chopsticks'
                 options={
                   <Button palette='secondary'>
-                  <Text><a href="https://github.com/dlin2028/Chopsticks">GitHub</a></Text>
+                    <Text><a href="https://github.com/dlin2028/Chopsticks">GitHub</a></Text>
                   </Button>
                 }
               >
                 <Text>
-                  • Developed a Monte Carlo AI which plays the street game Chopsticks, with different difficulty levels <br/>
+                  • Developed a Monte Carlo AI which plays the street game Chopsticks, with different difficulty levels <br />
                   • Includes a Windows Forms GUI to play the game
                 </Text>
               </Card>
