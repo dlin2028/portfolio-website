@@ -54,17 +54,17 @@ const App: FC = () => {
             </Animator>
           </div>
 
-          <div style={{ width: 800, height: 200, margin: "0 auto" }}>
+          <div style={{ width: 800, height: 270, margin: "0 auto" }}>
             <FrameCorners>
               <Text style={{ fontSize: 50 }} animator={{ duration, activate }}>Profile
               </Text>
-              <Text style={{ fontSize: 15 }} animator={{ duration, activate }}>Computer Engineering student interested in Software Development. Strongest languages are C#/C++, but has demonstrated proficiency in other languages. Strong focus on code readability. Grew up in Los Angeles, California, and is willing to locate for job opportunities. Sometimes spotted enjoying Tennis and Mountain Biking.
+              <Text style={{ fontSize: 20 }} animator={{ duration, activate }}>Computer Engineering student interested in Software Development. Strongest languages are C#/C++, but has demonstrated proficiency in other languages. Strong focus on code readability. Grew up in Los Angeles, California, and is willing to locate for job opportunities. Sometimes spotted enjoying Tennis and Mountain Biking.
               </Text>
               <br />
             </FrameCorners>
           </div>
 
-          <div style={{ width: 800, height: 250, margin: "0 auto" }}>
+          <div style={{ width: 800, height: 310, margin: "0 auto" }}>
             <FrameCorners>
               <Text style={{ fontSize: 50 }} animator={{ duration, activate }}>Education
               </Text>
@@ -72,16 +72,16 @@ const App: FC = () => {
               <Text style={{ fontSize: 30 }} animator={{ duration, activate }}>University of Illinois Urbana-Champaign
               </Text>
               <br />
-              <Text style={{ fontSize: 20 }} animator={{ duration, activate }}>Bachelor of Science in Computer Engineering
+              <Text style={{ fontSize: 25 }} animator={{ duration, activate }}>Bachelor of Science in Computer Engineering
               </Text>
               <br />
-              <Text style={{ fontSize: 15 }} animator={{ duration, activate }}>Relevant Courses: Introduction to Data Structures and Algorithms with C++, Analog Signal Processing, Digital
+              <Text style={{ fontSize: 20 }} animator={{ duration, activate }}>Relevant Courses: Introduction to Data Structures and Algorithms with C++, Analog Signal Processing, Digital
                 Signal Processing, Probability with Engineering Applications, Physics Mechanics, E&M, Quantum, Thermo
               </Text>
               <br />
             </FrameCorners>
           </div>
-          <div style={{ width: 800, height: 390, margin: "0 auto" }}>
+          <div style={{ width: 800, height: 415, margin: "0 auto" }}>
             <FrameCorners>
               <Text style={{ fontSize: 50 }} animator={{ duration, activate }}>Last Seen
               </Text>
@@ -92,24 +92,34 @@ const App: FC = () => {
               <Text style={{ fontSize: 25 }} animator={{ duration, activate }}>Unity AR Internship
               </Text>
               <br />
-              <Text style={{ fontSize: 20 }} animator={{ duration, activate }}>• Developed a cross-platform Unity Engine app in C# using ARFoundation from start to finish <br />
-                • Allows a user in a pre-defined location such as a street corner to view AR (Augmented Reality) recreations of
-                objects such as historical buildings with accurate positioning and scale in the real world <br />
-                • This application was used to successfully land a contract for further development <br />
+              <Text style={{ fontSize: 20 }} animator={{ duration, activate }}>• Secured a contract for furture development by creating a demo app from start to finish that allows a user in a
+pre-defined location such as a street corner to view AR (Augmented Reality) recreations of objects such as
+historical buildings with accurate positioning and scale in the real world <br/>
+• Documented and designed the source code for the demo app so it could be used as the basis for the final product <br/>
+• Technologies include C# and Unity Engine with ARFoundation
               </Text>
               <br />
             </FrameCorners>
           </div>
-          <div style={{ width: 800, height: 730, margin: "0 auto" }}>
+          <div style={{ width: 800, height: 950, margin: "0 auto" }}>
             <FrameCorners>
               <Text style={{ fontSize: 50 }} animator={{ duration, activate }}>Recent Activity
               </Text>
               <br />
+              <Text style={{ fontSize: 30 }} animator={{ duration, activate }}> SIGPwny Cybersecurity Team
+              </Text>
+              <br />
+              <Text style={{ fontSize: 20 }} animator={{ duration, activate }}> • Student-run interest group and CTF team at the University of Illinois at Urbana-Champaign <br/>
+• 1st Place: Cyphercon Capture the Flag 2022, Cypher Village 2022, Capture The Con 2022
+              </Text>
+              <br />
+              <br />
               <Text style={{ fontSize: 30 }} animator={{ duration, activate }}> Illinois Motorsports FSAE and Supermileage
               </Text>
               <br />
-              <Text style={{ fontSize: 20 }} animator={{ duration, activate }}> • Designed front-end circuits for measuring the current draw on a battery, using hall effect and shunt resistors <br />
-                • Worked in small teams of 2-3 to design and CAD model the clutch lever and steering wheel electronics enclosure
+              <Text style={{ fontSize: 20 }} animator={{ duration, activate }}>• Designed front-end circuits for measuring the current draw on a battery, using hall effect and shunt resistors <br/>
+• Worked in small teams of 2-3 to design and CAD model the clutch lever and steering wheel electronics enclosure <br/>
+• Programmed an STM32 to communicate voltage and current readings over CAN bus
               </Text>
               <br />
               <br />
@@ -129,12 +139,13 @@ const App: FC = () => {
               <br />
               <Text style={{ fontSize: 20 }} animator={{ duration, activate }}>• Participated in national cybersecurity competition offered by the US Air Force Association <br />
                 • Secured Linux, Windows, and Cisco operating systems by detecting and removing vulnerabilities <br />
-                • Co-founder of student team at Taft High School, Qualified for silver semi-finals in both years <br />
+                • Co-founder of student team at Taft High School<br />
+                • 2019 Gold Semi-Finalist, 2018 Silver Semi-Finalist
               </Text>
 
             </FrameCorners>
           </div>
-          <div style={{ width: 800, height: 1300, margin: "0 auto" }}>
+          <div style={{ width: 800, height: 1500, margin: "0 auto" }}>
             <FrameCorners>
               <Text style={{ fontSize: 50 }} animator={{ duration, activate }}>Notable Projects
               </Text>
